@@ -1,0 +1,7 @@
+To generate the log_recorder.ko kernel module, change the Makefile and edit the addresses for your kernel directory (KDIR) and cross compiler.
+Then run make to generate the kernel module.
+
+To rebuild the config_app use ndk-build to generate the native file of config_app for armv7a.
+
+Then run push_to_Nexus5.sh to push the required file to the sdcard.
+
